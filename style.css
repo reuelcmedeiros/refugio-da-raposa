@@ -9,11 +9,10 @@ html {
   scroll-behavior: smooth;
 }
 
-
 .hero {
   display: flex;
   height: 100vh;
-  background: #1f3d2b;
+  background: linear-gradient(135deg, #c65a1e, #e07a2f);
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -51,7 +50,7 @@ html {
 }
 
 .btn {
-  background: #7a5c3e;
+  background: #8b3e17;
   color: #fff;
   padding: 12px 24px;
   text-decoration: none;
@@ -225,7 +224,6 @@ html {
   transition: 0.3s;
 }
 
-
 section {
   scroll-margin-top: 80px;
 }
@@ -236,4 +234,20 @@ section {
   transition: 0.3s;
 }
 
+.social-links {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 2rem;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-links a:hover {
+  transform: translateY(-4px);
+  color: #ffe2c4;
+}
 
